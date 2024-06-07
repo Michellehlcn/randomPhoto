@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320386922BF58E7900EB57AB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386912BF58E7800EB57AB /* CardView.swift */; };
+		320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386932BF59A3300EB57AB /* CardsScreen.swift */; };
+		320386962BF5A89F00EB57AB /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386952BF5A89F00EB57AB /* CardList.swift */; };
+		320386982BF5A8BD00EB57AB /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386972BF5A8BD00EB57AB /* TransactionsView.swift */; };
+		328310682C1296F8000837B8 /* BankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310672C1296F8000837B8 /* BankCardView.swift */; };
+		3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310692C12970F000837B8 /* CircularImageView.swift */; };
+		3283106C2C129728000837B8 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283106B2C129728000837B8 /* ShareCardView.swift */; };
+		3283106E2C12973E000837B8 /* TransactionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283106D2C12973E000837B8 /* TransactionItemView.swift */; };
+		32CECA102BF4B47E002532F9 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 32CECA0F2BF4B47E002532F9 /* Inject */; };
 		32CECCE22BF339CB000ACF2A /* randomPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CECCE12BF339CB000ACF2A /* randomPhotoApp.swift */; };
 		32CECCE42BF339CB000ACF2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CECCE32BF339CB000ACF2A /* ContentView.swift */; };
 		32CECCE62BF339D3000ACF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CECCE52BF339D3000ACF2A /* Assets.xcassets */; };
@@ -14,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320386912BF58E7800EB57AB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		320386932BF59A3300EB57AB /* CardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsScreen.swift; sourceTree = "<group>"; };
+		320386952BF5A89F00EB57AB /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		320386972BF5A8BD00EB57AB /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		328310672C1296F8000837B8 /* BankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardView.swift; sourceTree = "<group>"; };
+		328310692C12970F000837B8 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		3283106B2C129728000837B8 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		3283106D2C12973E000837B8 /* TransactionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemView.swift; sourceTree = "<group>"; };
 		32CECCDE2BF339CB000ACF2A /* randomPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CECCE12BF339CB000ACF2A /* randomPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomPhotoApp.swift; sourceTree = "<group>"; };
 		32CECCE32BF339CB000ACF2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +43,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CECA102BF4B47E002532F9 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		328310652C1293F8000837B8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		328310662C129406000837B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				328310672C1296F8000837B8 /* BankCardView.swift */,
+				328310692C12970F000837B8 /* CircularImageView.swift */,
+				3283106B2C129728000837B8 /* ShareCardView.swift */,
+				3283106D2C12973E000837B8 /* TransactionItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		32CECCD52BF339CB000ACF2A = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +89,12 @@
 			children = (
 				32CECCE12BF339CB000ACF2A /* randomPhotoApp.swift */,
 				32CECCE32BF339CB000ACF2A /* ContentView.swift */,
+				320386912BF58E7800EB57AB /* CardView.swift */,
+				320386932BF59A3300EB57AB /* CardsScreen.swift */,
+				328310652C1293F8000837B8 /* Utils */,
+				320386952BF5A89F00EB57AB /* CardList.swift */,
+				320386972BF5A8BD00EB57AB /* TransactionsView.swift */,
+				328310662C129406000837B8 /* Views */,
 				32CECCE52BF339D3000ACF2A /* Assets.xcassets */,
 				32CECCE72BF339D3000ACF2A /* Preview Content */,
 			);
@@ -83,6 +125,9 @@
 			dependencies = (
 			);
 			name = randomPhoto;
+			packageProductDependencies = (
+				32CECA0F2BF4B47E002532F9 /* Inject */,
+			);
 			productName = randomPhoto;
 			productReference = 32CECCDE2BF339CB000ACF2A /* randomPhoto.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 32CECCD52BF339CB000ACF2A;
+			packageReferences = (
+				32CECA0E2BF4B47E002532F9 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 32CECCDF2BF339CB000ACF2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328310682C1296F8000837B8 /* BankCardView.swift in Sources */,
 				32CECCE42BF339CB000ACF2A /* ContentView.swift in Sources */,
+				320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */,
+				320386962BF5A89F00EB57AB /* CardList.swift in Sources */,
+				320386922BF58E7900EB57AB /* CardView.swift in Sources */,
+				3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */,
+				3283106E2C12973E000837B8 /* TransactionItemView.swift in Sources */,
+				3283106C2C129728000837B8 /* ShareCardView.swift in Sources */,
 				32CECCE22BF339CB000ACF2A /* randomPhotoApp.swift in Sources */,
+				320386982BF5A8BD00EB57AB /* TransactionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +331,16 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "develop-michellehlcn.randomPhoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32CECA0E2BF4B47E002532F9 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32CECA0F2BF4B47E002532F9 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32CECA0E2BF4B47E002532F9 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32CECCD62BF339CB000ACF2A /* Project object */;
 }

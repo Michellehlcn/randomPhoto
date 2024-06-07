@@ -6,16 +6,24 @@
 //
 
 import SwiftUI
+import Inject
 
 struct ContentView: View {
+   //@ObservedObject private var iO = Inject.observer
+    //@State private var isShowingDetailView = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            Text("Hello World")
         }
-        .padding()
+    }.toolbar {
+        ToolbarItemGroup {
+            Text("Hello")
+                .font(.system(size: 30
+                             ))
+                .fontWeight(.light)
+            Text("Nick")
+                .font(.system(size: 30))
+        }
     }
 }
 
@@ -24,3 +32,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
