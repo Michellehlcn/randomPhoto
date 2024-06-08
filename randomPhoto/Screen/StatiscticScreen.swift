@@ -9,7 +9,14 @@ import SwiftUI
 
 struct StatiscticScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack{
+                    ForEach(filters, id:\.self)
+                }
+            }
+        }
+        .frame(maxHeight: .infinity, alignment: .top)
     }
 }
 

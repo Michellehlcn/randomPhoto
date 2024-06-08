@@ -11,6 +11,8 @@
 		320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386932BF59A3300EB57AB /* CardsScreen.swift */; };
 		320386962BF5A89F00EB57AB /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386952BF5A89F00EB57AB /* CardList.swift */; };
 		320386982BF5A8BD00EB57AB /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386972BF5A8BD00EB57AB /* TransactionsView.swift */; };
+		326BC32B2C1450EC00865EF8 /* StatiscticScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BC32A2C1450EB00865EF8 /* StatiscticScreen.swift */; };
+		326BC32E2C14584B00865EF8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BC32D2C14584B00865EF8 /* Data.swift */; };
 		328310682C1296F8000837B8 /* BankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310672C1296F8000837B8 /* BankCardView.swift */; };
 		3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310692C12970F000837B8 /* CircularImageView.swift */; };
 		3283106C2C129728000837B8 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283106B2C129728000837B8 /* ShareCardView.swift */; };
@@ -27,6 +29,8 @@
 		320386932BF59A3300EB57AB /* CardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsScreen.swift; sourceTree = "<group>"; };
 		320386952BF5A89F00EB57AB /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		320386972BF5A8BD00EB57AB /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		326BC32A2C1450EB00865EF8 /* StatiscticScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatiscticScreen.swift; sourceTree = "<group>"; };
+		326BC32D2C14584B00865EF8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		328310672C1296F8000837B8 /* BankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardView.swift; sourceTree = "<group>"; };
 		328310692C12970F000837B8 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		3283106B2C129728000837B8 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
@@ -50,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		326BC3292C1450BA00865EF8 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				326BC32A2C1450EB00865EF8 /* StatiscticScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		326BC32C2C14583200865EF8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				326BC32D2C14584B00865EF8 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		328310652C1293F8000837B8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +107,8 @@
 		32CECCE02BF339CB000ACF2A /* randomPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				326BC32C2C14583200865EF8 /* Data */,
+				326BC3292C1450BA00865EF8 /* Screen */,
 				32CECCE12BF339CB000ACF2A /* randomPhotoApp.swift */,
 				32CECCE32BF339CB000ACF2A /* ContentView.swift */,
 				320386912BF58E7800EB57AB /* CardView.swift */,
@@ -189,8 +211,10 @@
 				32CECCE42BF339CB000ACF2A /* ContentView.swift in Sources */,
 				320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */,
 				320386962BF5A89F00EB57AB /* CardList.swift in Sources */,
+				326BC32B2C1450EC00865EF8 /* StatiscticScreen.swift in Sources */,
 				320386922BF58E7900EB57AB /* CardView.swift in Sources */,
 				3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */,
+				326BC32E2C14584B00865EF8 /* Data.swift in Sources */,
 				3283106E2C12973E000837B8 /* TransactionItemView.swift in Sources */,
 				3283106C2C129728000837B8 /* ShareCardView.swift in Sources */,
 				32CECCE22BF339CB000ACF2A /* randomPhotoApp.swift in Sources */,

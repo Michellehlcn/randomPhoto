@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+//let filters: [String] = ["1 Year", "6 Months", "Last Month", "This Week"]
+//let templates:[tem] = [
+//    template(name: "Insurance "),
+//    template]
