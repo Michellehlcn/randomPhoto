@@ -11,8 +11,10 @@
 		320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386932BF59A3300EB57AB /* CardsScreen.swift */; };
 		320386962BF5A89F00EB57AB /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386952BF5A89F00EB57AB /* CardList.swift */; };
 		320386982BF5A8BD00EB57AB /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320386972BF5A8BD00EB57AB /* TransactionsView.swift */; };
+		326A22442C15B75500FC167D /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326A22432C15B75500FC167D /* CircularProgressView.swift */; };
 		326BC32B2C1450EC00865EF8 /* StatiscticScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BC32A2C1450EB00865EF8 /* StatiscticScreen.swift */; };
 		326BC32E2C14584B00865EF8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BC32D2C14584B00865EF8 /* Data.swift */; };
+		326BC3312C14743800865EF8 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BC3302C14743800865EF8 /* FilterView.swift */; };
 		328310682C1296F8000837B8 /* BankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310672C1296F8000837B8 /* BankCardView.swift */; };
 		3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328310692C12970F000837B8 /* CircularImageView.swift */; };
 		3283106C2C129728000837B8 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283106B2C129728000837B8 /* ShareCardView.swift */; };
@@ -29,8 +31,10 @@
 		320386932BF59A3300EB57AB /* CardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsScreen.swift; sourceTree = "<group>"; };
 		320386952BF5A89F00EB57AB /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		320386972BF5A8BD00EB57AB /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		326A22432C15B75500FC167D /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		326BC32A2C1450EB00865EF8 /* StatiscticScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatiscticScreen.swift; sourceTree = "<group>"; };
 		326BC32D2C14584B00865EF8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		326BC3302C14743800865EF8 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		328310672C1296F8000837B8 /* BankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardView.swift; sourceTree = "<group>"; };
 		328310692C12970F000837B8 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		3283106B2C129728000837B8 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		326BC32F2C14741E00865EF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				326BC3302C14743800865EF8 /* FilterView.swift */,
+				326A22432C15B75500FC167D /* CircularProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		328310652C1293F8000837B8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		32CECCE02BF339CB000ACF2A /* randomPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				326BC32F2C14741E00865EF8 /* View */,
 				326BC32C2C14583200865EF8 /* Data */,
 				326BC3292C1450BA00865EF8 /* Screen */,
 				32CECCE12BF339CB000ACF2A /* randomPhotoApp.swift */,
@@ -207,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326BC3312C14743800865EF8 /* FilterView.swift in Sources */,
 				328310682C1296F8000837B8 /* BankCardView.swift in Sources */,
 				32CECCE42BF339CB000ACF2A /* ContentView.swift in Sources */,
 				320386942BF59A3300EB57AB /* CardsScreen.swift in Sources */,
@@ -216,6 +231,7 @@
 				3283106A2C12970F000837B8 /* CircularImageView.swift in Sources */,
 				326BC32E2C14584B00865EF8 /* Data.swift in Sources */,
 				3283106E2C12973E000837B8 /* TransactionItemView.swift in Sources */,
+				326A22442C15B75500FC167D /* CircularProgressView.swift in Sources */,
 				3283106C2C129728000837B8 /* ShareCardView.swift in Sources */,
 				32CECCE22BF339CB000ACF2A /* randomPhotoApp.swift in Sources */,
 				320386982BF5A8BD00EB57AB /* TransactionsView.swift in Sources */,
