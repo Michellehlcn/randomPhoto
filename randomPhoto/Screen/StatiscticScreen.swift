@@ -34,6 +34,28 @@ struct StatiscticScreen: View {
                 
             }
             .padding(.bottom)
+            
+            VStack {
+                Text("$2,789.99")
+                    .fontWeight(.bold)
+                Text("Expenses")
+                    .font(.headline)
+                    .foregroundColor(.gray)
+            }
+            Spacer()
+            
+            VStack(alignment: .leading) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Templetes")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Text("Recently Added")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .fontWeight(.bold)
+                        .pading(.leading)
+                }
+            }
         }
         .frame(maxHeight: .infinity, alignment: .top)
     }
