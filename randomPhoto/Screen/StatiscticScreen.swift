@@ -53,7 +53,16 @@ struct StatiscticScreen: View {
                         .font(.footnote)
                         .foregroundColor(.gray)
                         .fontWeight(.bold)
-                        .pading(.leading)
+                        .padding(.leading, 10)
+                }
+                
+                // Scroll Templete
+                ScrollView(.horizontal, showsIndicators: false) {
+                    LazyHStack {
+                        ForEach(templetes, id: \.name) {templete in
+                            TempleteItemView(templete: templete)
+                        }
+                    }
                 }
             }
         }

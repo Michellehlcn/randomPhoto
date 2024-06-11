@@ -63,7 +63,7 @@ struct ContentView: View {
                             .tabItem{
                                 Image(systemName: "folder.fill")
                             }
-                        Text("statistics")
+                        StatiscticScreen()
                             .tabItem{
                                 Image(systemName: "slider.horizontal.3")
                             }
